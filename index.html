@@ -6,8 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<title>DT Frontend Code Challenge</title>
 	</head>
-	<body>
-		<h1>DT Frontend Code Challenge</h1>
+	<body>	
 		<script type="module" src="/main.js"></script>
+		<form action="" method="">
+			<h2>Sample Wizard form app</h2>
+			<label for="input1">Input 1</label>
+			<input type="text" id="input1" name="input1">
+			<label for="input2">Input 2</label>
+			<input type="text" id="input2" name="input2">
+			<label>Input 3</label>
+			<div class="date-row">
+				<input type="text" id="day" name="day" placeholder="DD"><input type="text" id="month" name="month" placeholder="MM"><input type="text" id="year" name="year" placeholder="YYYY"><img src="calendar.svg" height="26px" width="26px"/>
+			</div>
+			<div class="btn-row">
+				<button type="button" id="back" class="btn btn-secondary">Back</button>
+				<button type="submit" class="btn btn-primary">Next</button>
+			</div>
+		</form>
 	</body>
 </html>
